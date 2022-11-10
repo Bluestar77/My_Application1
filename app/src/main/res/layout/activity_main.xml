@@ -8,24 +8,32 @@
 
     <TextView
         android:id="@+id/text1"
-        android:layout_width="604dp"
-        android:layout_height="348dp"
+        android:layout_width="343dp"
+        android:layout_height="191dp"
         android:text="i hate Coding"
         android:textSize="50sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.679"
+        app:layout_constraintHorizontal_bias="0.438"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.37" />
+        app:layout_constraintVertical_bias="0.085" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="560dp"
-        android:layout_height="299dp"
+        android:layout_width="321dp"
+        android:layout_height="155dp"
         android:text="New Text"
         android:textSize="50sp"
-        tools:layout_editor_absoluteX="201dp"
-        tools:layout_editor_absoluteY="735dp" />
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="390dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="195dp"
+        android:layout_height="138dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="313dp"
+        tools:layout_editor_absoluteY="850dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
